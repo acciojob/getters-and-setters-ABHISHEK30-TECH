@@ -1,16 +1,16 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.n = name;
-		this.a = age;
+		this.name = John;
+		this.age = 25;
 	}
 }
 get name(){
-	return this.n;
+	return this.name;
 }
 
 get age(){
-	return this.a;
+	return this.age;
 }
 
 set newName(){
@@ -28,13 +28,13 @@ set age(newAge){
 
 class Student extends Person {
 	study() {
-    return `${this.n} is studying.`;
+    return `${this.name} is studying.`;
   }
 }
 
 class Teacher extends Person {
 	 teach() {
-    return `${this.n} is teaching.`;
+    return `${this.name} is teaching.`;
   }
 }
 
